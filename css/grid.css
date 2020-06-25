@@ -1,0 +1,115 @@
+.container1{
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.row{
+ display: flex;
+ align-items: center;
+
+}
+
+.col-1{
+    width: 8.333333333333333%;
+}
+.col-2{
+    width: 16.66666666666667%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.3333333332%;
+}
+.col-5{
+    width: 41.6666666665%;
+}
+.col-6{
+    width: 49.9999999998%;
+}
+.col-7{
+    width: 58.3333333331%;
+}
+.col-8{
+    width: 66.6666666664%;
+}
+.col-9{
+    width: 74.9999999997%;
+}
+.col-10{
+    width: 83.333333333%;
+}
+.col-11{
+    width: 91.6666666663%;
+}
+.col-12{
+    width: 100%;
+}
+
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 10px;
+}
+
+@media(max-width:900px){
+
+    .row{
+        display: inherit;
+    }
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+      width:100;
+    }
+    .productos{
+        padding-left: 10px;
+    }
+    .container1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .ben2{
+        top: auto;
+        left: auto;
+        width: auto;
+        height: auto;
+    }
+    .texto{
+        padding-left: 18%;
+    }
+    .ben2{
+        margin-left: -50%;
+    }
+    .margen_venta{
+        display: flex; 
+        justify-content: center;
+        margin-top: 15%;
+    }
+}
+.ben1{  
+    top: 327px;
+    left: 232px;
+    width: 230px;
+    height: 230px;
+    margin-right: 10%;
+}
+
+.ben2{
+    top: 654px;
+    left: 805px;
+    width: 272px;
+    height: 248px;
+}
+
+.ben3{
+    top: 1074px;
+    left: 261px;
+    width: 217px;
+    height: 207px;
+}
+
+/* container es padre de row y es padre de columna  */
+
+

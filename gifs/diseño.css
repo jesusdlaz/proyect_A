@@ -1,0 +1,23 @@
+html{
+    background-color: black;
+}
+
+.h1{
+    font-size: 40px;
+    color: paleturquoise;
+    background-color: black;
+    background-position: center;
+    border: 1px solid paleturquoise;
+    border-radius: 3px;
+    text-align: center;}
+    
+    .gifs{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .giphy{
+       
+
+    }

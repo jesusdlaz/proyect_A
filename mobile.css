@@ -1,0 +1,23 @@
+@media (max-width: 710px){
+    .products{
+        display: inherit;
+        height: auto;
+        
+        
+    }
+
+    .product{
+        margin-top: auto;
+        
+      
+       }
+
+    .ventajas{
+        display: inherit;
+        height: auto;
+        margin-top: 630px;
+    }
+    
+    }
+
+    
